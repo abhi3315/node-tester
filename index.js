@@ -1,9 +1,11 @@
 const express = require("express");
 const cors = require("cors");
+const ampCors = require('amp-toolbox-cors');
 
 const app = express();
 
-app.use(cors());
+
+app.use(ampCors());
 
 app.get("/", (req, res) => {
 	const { interest } = req.query;
