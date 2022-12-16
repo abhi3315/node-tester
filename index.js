@@ -10,10 +10,10 @@ app.get("/", (req, res) => {
 	res.set("Access-Control-Allow-Origin", "*");
 	res.set("Access-Control-Allow-Methods", "GET, POST");
 	res.set("Access-Control-Allow-Headers", "Content-Type");
-	res.set("AMP-Access-Control-Allow-Source-Origin", "pradeep.sonawane@rtcamp.com");
+	res.set("AMP-Access-Control-Allow-Source-Origin", "abhishek.sharma@rtcamp.com");
 	res.set("Access-Control-Expose-Headers", "AMP-Access-Control-Allow-Source-Origin");
 	res.set("Content-Type", "application/json");
-	res.set("AMP-Email-Allow-Sender", "pradeep.sonawane@rtcamp.com");
+	res.set("AMP-Email-Allow-Sender", "abhishek.sharma@rtcamp.com");
 
 	// set response
 	res.json({
