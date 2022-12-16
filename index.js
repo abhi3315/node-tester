@@ -4,8 +4,6 @@ const ampCors = require("amp-toolbox-cors");
 
 const app = express();
 
-app.use(ampCors());
-
 app.get("/", (req, res) => {
 	const { interest } = req.query;
 	// set headers
